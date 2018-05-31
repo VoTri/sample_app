@@ -1,11 +1,7 @@
 en:
   view:
-    layouts:
-      application:
-        ruby_on_rails_tutorials: " | Ruby on Rails Tutorial Sample App"
     static_pages:
       home:
-        home: "Home"
         sample_app: "Sample App"
         this_is_the_home_page: "This is the home page for the"
         ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
