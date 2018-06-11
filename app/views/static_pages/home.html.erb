@@ -1,7 +1,11 @@
-<h1><%= t("static_pages.home.sample_app") %></h1>
-<p>
-  <%= t("view.static_pages.home.this_is_the_home_page") %>
-  <%= link_to t("view.static_pages.home.ruby_on_rails_tutorial"),
-   "http://www.railstutorial.org/" %>
-  <%= t("view.static_pages.home.sample_applycation") %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t("view.static_pages.home.sample_app") %></h1>
+  <h2>
+    <%= t("view.static_pages.home.this_is_the_home_page") %>
+    <%= link_to t("view.static_pages.home.ruby_on_rails_tutorial"), "http://www.railstutorial.org/" %>
+    <%= t("view.static_pages.home.sample_application") %>
+  </h2>
+  <%= link_to t("view.static_pages.home.sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: t("view.static_pages.home.rails_logo")), 'http://rubyonrails.org/' %>
