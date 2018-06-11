@@ -6,6 +6,10 @@ en:
         home: "Home"
         help: "Help"
         log_in: "Log in"
+        users: "Users"
+        profile: "Profile"
+        settings: "Settings"
+        log_out: "Log out"
       _footer:
         the: "The"
         ruby_on_rails: "Ruby on Rails Tutorial"
@@ -49,7 +53,23 @@ en:
       new:
         sign_up: "Sign up"
         create_my_account: "Create my account"
+      edit:
+        edit_user: "Edit user"
+        save_changes: "Save changes"
+        updates_your_profile: "Update your profile"
+        change: "Change"
+      index:
+        all_users: "All users"
+    sessions:
+      new:
+        log_in: "Log in"
+        new_user: "New user?"
+        sign_up_now: "Sign up now!"
   controllers:
     users:
       welcome_sample_app: "Welcome to the Sample App!"
-
+      update_success: "Profile updated"
+      please_log_in: "Please log in."
+      delete_success: "User deleted"
+    sessions:
+      login_fail: "Invalid email/password combination"
